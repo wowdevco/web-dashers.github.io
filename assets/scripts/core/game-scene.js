@@ -2701,7 +2701,7 @@ _buildSettingsPopup() {
     bounceContainer.add(closeBtn);
     this._expandHitArea(closeBtn, 2);
     this._makeBouncyButton(closeBtn, 0.8, () => this._closeUpdateLogPopup());
-    const title = this.add.bitmapText(0, -124, "bigFont", "BETA (EXPECT BUGS)", 30).setOrigin(0.5, 0.5).setTint(0xff6666);
+    const title = this.add.bitmapText(0, -124, "bigFont", "BETA (BUGS)", 30).setOrigin(0.5, 0.5).setTint(0xff6666);
     bounceContainer.add(title);
     const scrollAreaW = 420;
     const scrollAreaH = 230;
@@ -2730,7 +2730,7 @@ _buildSettingsPopup() {
       { text: "UI tweaks.", scale: 0.65 },
       { text: "Bug fixes.", scale: 0.65 },
       { text: "is this update finally out?", scale: 0.65, color: 0xaaddff },
-      { text: "- rohanis0000", scale: 0.65, color: 0xaaddff },
+      { text: "- nightly owner guy", scale: 0.65, color: 0xaaddff },
     ]; 
     let yPos = 0;
     const lineItems = [];
